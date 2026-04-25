@@ -104,8 +104,4 @@ python six_seven_meme.py photo.jpg --bgcolor ff4400 --height 480
 python six_seven_meme.py photo.jpg --s0 0.2 --N 6 --d 0.8 --gif
 ```
 
----
 
-## licence
-
-MIT
