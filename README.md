@@ -44,7 +44,7 @@ pip install pillow opencv-python numpy
 ## usage
 
 ```
-python six_seven_meme.py <input> [options]
+python 67.py <input> [options]
 ```
 
 Output files are written alongside the input, using its basename:
@@ -92,16 +92,16 @@ Running with no arguments (or `--help`) prints full usage information.
 
 ```bash
 # Basic — MP4 only, background colour extracted from image
-python six_seven_meme.py photo.jpg
+python 67.py photo.jpg
 
 # With GIF, white background
-python six_seven_meme.py photo.jpg --gif --bgcolor white
+python 67.py photo.jpg --gif --bgcolor white
 
 # Custom hex background, resize to 480 px tall
-python six_seven_meme.py photo.jpg --bgcolor ff4400 --height 480
+python 67.py photo.jpg --bgcolor ff4400 --height 480
 
 # Slower start, more iterations, less slowdown
-python six_seven_meme.py photo.jpg --s0 0.2 --N 6 --d 0.8 --gif
+python 67.py photo.jpg --s0 0.2 --N 6 --d 0.8 --gif
 ```
 
 
